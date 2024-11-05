@@ -42,7 +42,7 @@ export async function generateMetadata(
     },
     ja: {
       title: "AIアバター作成",
-      description:"様々なスタイルの自撮りアイコンを生成します",
+      description: "様々なスタイルの自撮りアイコンを生成します",
       image: "/images/headshot_jp_tool_logo.png",
     },
   };
@@ -91,6 +91,8 @@ export default function RootLayout({
   children: React.ReactNode
   params: { locale: string }
 }>) {
+  const showBrand = process.env.NEXT_PUBLIC_SHOW_BRAND === "true";
+
   return (
     <html lang={locale} dir={dir(locale)}>
       <head>
@@ -103,10 +105,12 @@ export default function RootLayout({
             <ErrorHandler />
             <Toolbar />
             {children}
-            <script
-              src='https://assets.salesmartly.com/js/project_177_61_1649762323.js'
-              async
-            />
+            {showBrand &&
+              <script
+                src='https://assets.salesmartly.com/js/project_177_61_1649762323.js'
+                async
+              />
+            }
           </Providers>
         </ClientOnly>
       </body>

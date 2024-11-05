@@ -47,6 +47,8 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
   const { url, tab, presetStyle, characterType, size, updateAll } = useFormStore((state) => ({ ...state }))
 
+  const showBrand = process.env.NEXT_PUBLIC_SHOW_BRAND === "true";
+
   const handleScroll = () => {
     setDesktopCss(window.scrollY >= 200);
     if ((window.innerHeight + 200) + window.scrollY >= document.documentElement.scrollHeight && !isLoading) {
@@ -258,7 +260,10 @@ export default function Home({ params: { locale } }: { params: { locale: string 
     <div className='relative' >
       <div className='my-0 mx-auto w-full md:max-w-[1200px] '>
         <div className='flex items-center w-full justify-center py-10'>
-          <Image alt='ai-302-logo' src={logo_302} quality={100} height={65} width={65} draggable={false} />
+          {
+            showBrand &&
+            <Image alt='ai-302-logo' src={logo_302} quality={100} height={65} width={65} draggable={false} />
+          }
           <div className='text-2xl ml-5 font-bold'>{t('home:title')}</div>
         </div>
         {/* 主UI */}
@@ -348,7 +353,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
           </div>
         </div>
       </div>
-      <Footer className='py-3' />
+      {showBrand && <Footer className='py-3' />}
     </div >
   )
 }
