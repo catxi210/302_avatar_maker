@@ -2,7 +2,7 @@
 
 <p align="center">AI头像制作通过上传一张自拍照，生成不同风格的头像，还可以自定义风格。</p>
 
-<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/badge/21212.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/word/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
 
 <p align="center"><a href="README zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
@@ -13,9 +13,9 @@
 或者对本项目根据自己的需求进行修改，传入302.AI的API KEY，自行部署。
 
 ## 界面预览
-![界面预览](docs/头像制作1.png)
-![界面预览](docs/头像制作2.png)
-![界面预览](docs/头像制作3.png)
+已上线多种头像风格可供选择。
+![界面预览](docs/头像1.png)
+
 
 ## 项目特性
 ### 🛠️ 预设多种艺术风格
