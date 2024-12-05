@@ -8,7 +8,7 @@
 
 ![Interface Preview](docs/AI头像制作en.png)
 
-The open-source version of [302.AI](https://302.ai) from [AI Avatar Maker](https://302.ai/tools/headshot/). 
+The open-source version of [302.AI](https://302.ai) from [AI Avatar Maker](https://302.ai/en/tools/headshot/). 
 You can directly log in to 302.AI to use the online version with zero code and zero configuration. 
 Alternatively, you can modify this project according to your needs, input the API KEY from 302.AI, and deploy it yourself.
 
