@@ -73,7 +73,7 @@ Create unique social media avatars, generate art-styled personal portraits, and 
 
 
 ## ✨ About 302.AI ✨
-[302.AI](https://302.ai) is a pay-as-you-go AI application platform that solves the last-mile problem of AI being used in practice.
+[302.AI](https://302.ai) is an enterprise-oriented AI application platform that offers pay-as-you-go services, ready-to-use solutions, and an open-source ecosystem.✨
 1. 🧠 Integrates the latest and most comprehensive AI capabilities and brands, including but not limited to language models, image models, sound models, and video models.
 2. 🚀 Deep application development on base models, creating real AI products rather than simple chatbots.
 3. 💰 No monthly fee; all features are pay-as-you-go, fully open, achieving truly low entry barriers with high ceilings.
