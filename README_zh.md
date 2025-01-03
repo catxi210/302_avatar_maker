@@ -2,7 +2,7 @@
 
 <p align="center">AI头像制作通过上传一张自拍照，生成不同风格的头像，还可以自定义风格。</p>
 
-<p align="center"><a href="https://302.ai/tools/headshot/" target="blank"><img src="https://file.302ai.cn/gpt/imgs/github/302_badge.png" /></a></p >
+<p align="center"><a href="https://302.ai/tools/headshot/" target="blank"><img src="https://file.302.ai/gpt/imgs/github/20250102/72a57c4263944b73bf521830878ae39a.png" /></a></p >
 
 <p align="center"><a href="README_zh.md">中文</a> | <a href="README.md">English</a> | <a href="README_ja.md">日本語</a></p>
 
